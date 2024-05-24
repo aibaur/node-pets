@@ -20,6 +20,8 @@ third commit: users can search pets by name and breed; test added
 
 fourth commit: implemented pagination on the home page
 
+fifth commit: implemented search pagination
+
 ### Validations
 
 Add validations to protect against unsanitary data getting into your db.
