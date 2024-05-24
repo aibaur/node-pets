@@ -2,7 +2,15 @@
 
 This is the starter project of the Node's Pet tutorial.
 
+first commit: starter code
+
 ## Tasks
+
+run (development): $ npm run dev
+
+run (test): $ mocha
+
+second commit: cloned starter and added localhost mongodb connection
 
 ### Simple Search & Pagination
 

@@ -1,5 +1,6 @@
 process.env.NODE_ENV = "dev";
 module.exports = {
+  undefined: "localhost/node-pets",
   dev: "localhost/node-pets",
-  // "prod": "localhost/PROD_DB_NAME"
+  prod: "localhost/node-pets",
 };
