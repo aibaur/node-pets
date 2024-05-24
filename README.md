@@ -18,6 +18,8 @@ Add a search bar in the navbar to search pets. Paginate the results.
 
 third commit: users can search pets by name and breed; test added
 
+fourth commit: implemented pagination on the home page
+
 ### Validations
 
 Add validations to protect against unsanitary data getting into your db.
