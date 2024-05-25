@@ -13,7 +13,7 @@ const fido = {
   picUrlSq:
     "https://www.collinsdictionary.com/images/thumb/greyhound_21701074_250.jpg",
   description:
-    "Fido is a dog and he's a good dog who loves to play and hang out with his owners. He also likes to nap and enjoys eating dog food",
+    "Fido is a dog and he's a good dog who loves to play and hang out with his owners. He also likes to nap and enjoys eating dog food. He also likes to nap and enjoys eating dog food",
 };
 
 chai.use(chaiHttp);
@@ -133,6 +133,20 @@ describe("Pets", () => {
       .end((err, res) => {
         res.should.have.status(200);
         res.should.be.html;
+        done();
+      });
+  });
+
+  // JSON
+  it("should list ALL pets on /pets GET", function (done) {
+    chai
+      .request(server)
+      .get("/")
+      .set("content-type", "application/json")
+      .end(function (err, res) {
+        res.should.have.status(200);
+        res.should.be.json;
+        res.body.should.be.a("object");
         done();
       });
   });

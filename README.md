@@ -47,3 +47,5 @@ Fuzzy and full-text search on multiple criteria
 ### Responding to JSON
 
 Make your project into a full API
+
+seventh commit: implemented responding to JSON; test added; bugs fixed
