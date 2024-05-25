@@ -26,6 +26,8 @@ fifth commit: implemented search pagination
 
 Add validations to protect against unsanitary data getting into your db.
 
+sixth commit: implemented validation
+
 ### Upload Images
 
 Upload pictures of pets from new and edit forms
