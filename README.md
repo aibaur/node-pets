@@ -49,3 +49,5 @@ Fuzzy and full-text search on multiple criteria
 Make your project into a full API
 
 seventh commit: implemented responding to JSON; test added; bugs fixed
+
+eighth commit: test bug fixed

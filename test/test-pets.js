@@ -59,7 +59,10 @@ describe("Pets", () => {
       .send(fido)
       .end((err, res) => {
         res.should.have.status(200);
-        res.should.be.html;
+        //res.should.be.html;
+        //done();
+        res.should.be.json;
+        res.body.should.be.a("object");
         done();
       });
   });
